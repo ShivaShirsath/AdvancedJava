@@ -7,6 +7,7 @@ import java.awt.event.WindowListener;
 
 class FrameDemo extends Frame {
     FrameDemo(String name){
+        setTitle(name);
         setSize(200, 100);
         addWindowListener(new WindowListener() {
             @Override public void windowOpened(WindowEvent windowEvent) {
